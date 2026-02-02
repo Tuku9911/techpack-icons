@@ -1,0 +1,7 @@
+import React from "react";
+
+export const HomeRoofLockFilled = ({ className, ...props }: any) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" {...props} className={className}>
+  <path fill="currentColor" fillOpacity=".45" d="M13 11.25v1.375h-2V11.25a1.001 1.001 0 0 1 2 0Zm8.58-1.109a.748.748 0 0 1-1.057.102L19.5 9.401v8.6c0 2.29-1.21 3.5-3.5 3.5H8c-2.29 0-3.5-1.21-3.5-3.5v-8.6l-1.023.842a.75.75 0 0 1-.953-1.159L9.936 2.99a3.26 3.26 0 0 1 4.129 0l7.412 6.096a.749.749 0 0 1 .102 1.055Zm-6.08 3.984c0-.81-.345-1.274-1-1.429V11.25c0-1.378-1.12-2.5-2.5-2.5a2.503 2.503 0 0 0-2.5 2.5v1.446c-.655.154-1 .62-1 1.43v2.25c0 1 .5 1.5 1.5 1.5h4c1 0 1.5-.5 1.5-1.5v-2.25Z"/>
+</svg>
+);

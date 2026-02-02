@@ -1,0 +1,7 @@
+import React from "react";
+
+export const GlobeStandFilled = ({ className, ...props }: any) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" {...props} className={className}>
+  <path fill="currentColor" fillOpacity=".45" d="M12.75 18.724v1.526H16a.75.75 0 0 1 0 1.5H8a.75.75 0 0 1 0-1.5h3.25v-1.554a9.41 9.41 0 0 1-5.232-2.262L4.53 17.92a.75.75 0 0 1-1.06-1.06l2-2a.749.749 0 0 1 .53-.22h.002c.2 0 .392.08.53.223a7.957 7.957 0 0 0 5.698 2.387c4.422 0 8.02-3.593 8.02-8.01 0-2.15-.85-4.177-2.39-5.708a.75.75 0 1 1 1.058-1.064A9.489 9.489 0 0 1 21.75 9.24c0 5.069-3.993 9.212-9 9.484ZM12 3.25c-3.31 0-6 2.69-6 6 0 3.309 2.69 6 6 6 3.309 0 6-2.691 6-6 0-3.31-2.691-6-6-6Z"/>
+</svg>
+);

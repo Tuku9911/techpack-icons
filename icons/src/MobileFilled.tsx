@@ -1,0 +1,7 @@
+import React from "react";
+
+export const MobileFilled = ({ className, ...props }: any) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" {...props} className={className}>
+  <path fill="currentColor" fillOpacity=".45" d="M16 3H8C6 3 5 4 5 6v12c0 2 1 3 3 3h8c2 0 3-1 3-3V6c0-2-1-3-3-3Zm-4 16a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1.5-12.25h-3a.75.75 0 0 1 0-1.5h3a.75.75 0 0 1 0 1.5Z"/>
+</svg>
+);

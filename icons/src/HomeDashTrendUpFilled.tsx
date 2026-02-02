@@ -1,0 +1,7 @@
+import React from "react";
+
+export const HomeDashTrendUpFilled = ({ className, ...props }: any) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" {...props} className={className}>
+  <path fill="currentColor" fillOpacity=".45" fillRule="evenodd" d="M20.27 9.062 13.588 3.57a2.501 2.501 0 0 0-3.177 0L3.729 9.062a1.996 1.996 0 0 0-.697 1.903l1.455 7.982A2.5 2.5 0 0 0 6.946 21h10.106a2.501 2.501 0 0 0 2.46-2.052l1.455-7.983a1.996 1.996 0 0 0-.697-1.902Zm-3.52 4.77a.75.75 0 0 1-1.5 0v-.69L13.69 14.7c-.542.544-1.492.544-2.037 0l-1.18-1.179-1.943 2.027a.748.748 0 0 1-1.06 0 .75.75 0 0 1 0-1.06l2.027-2.028c.544-.544 1.495-.544 2.039 0l1.178 1.178 1.513-1.558H13.5a.75.75 0 0 1 0-1.5H16a.75.75 0 0 1 .693.464c.038.092.058.19.058.287v2.501h-.001Z" clipRule="evenodd"/>
+</svg>
+);

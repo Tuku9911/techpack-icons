@@ -1,0 +1,7 @@
+import React from "react";
+
+export const ChartBarSquareFilled = ({ className, ...props }: any) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" {...props} className={className}>
+  <path fill="currentColor" fillOpacity=".45" d="M17.625 3H6.375C4.125 3 3 4.125 3 6.375v11.25C3 19.875 4.125 21 6.375 21h11.25C19.875 21 21 19.875 21 17.625V6.375C21 4.125 19.875 3 17.625 3ZM10.5 15.5c0 1-.5 1.5-1.5 1.5s-1.5-.5-1.5-1.5v-3c0-1 .5-1.5 1.5-1.5s1.5.5 1.5 1.5v3Zm6 0c0 1-.5 1.5-1.5 1.5s-1.5-.5-1.5-1.5v-7c0-1 .5-1.5 1.5-1.5s1.5.5 1.5 1.5v7Z"/>
+</svg>
+);

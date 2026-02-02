@@ -1,0 +1,7 @@
+import React from "react";
+
+export const ForkKnifeAltFilled = ({ className, ...props }: any) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" {...props} className={className}>
+  <path fill="currentColor" fillOpacity=".45" d="M12.75 3v4c0 2.09-1.51 3.82-3.5 4.17V21c0 .41-.34.75-.75.75s-.75-.34-.75-.75v-9.83c-1.99-.36-3.5-2.09-3.5-4.17V3c0-.41.34-.75.75-.75s.75.34.75.75v4h.75V3c0-.41.34-.75.75-.75S8 2.59 8 3v4h1V3c0-.41.34-.75.75-.75s.75.34.75.75v4h.75V3c0-.41.34-.75.75-.75s.75.34.75.75ZM19 2.25c-.05 0-5.25.08-5.25 6.75v5.5c0 .69.56 1.25 1.25 1.25h3.25V21c0 .41.34.75.75.75s.75-.34.75-.75V3c0-.41-.34-.75-.75-.75Z"/>
+</svg>
+);

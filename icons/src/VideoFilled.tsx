@@ -1,0 +1,7 @@
+import React from "react";
+
+export const VideoFilled = ({ className, ...props }: any) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" {...props} className={className}>
+  <path fill="currentColor" fillOpacity=".45" d="M22 7.56v8.88a.753.753 0 0 1-1.224.587l-2.164-1.737a.3.3 0 0 1-.112-.234V8.944a.3.3 0 0 1 .112-.234l2.164-1.737A.753.753 0 0 1 22 7.56ZM17 16V8c0-2-1-3-3-3H5C3 5 2 6 2 8v8c0 2 1 3 3 3h9c2 0 3-1 3-3Z"/>
+</svg>
+);

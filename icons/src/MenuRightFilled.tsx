@@ -1,0 +1,7 @@
+import React from "react";
+
+export const MenuRightFilled = ({ className, ...props }: any) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" {...props} className={className}>
+  <path fill="currentColor" fillOpacity=".45" d="M2 6a1 1 0 0 1 1-1h18a1 1 0 0 1 0 2H3a1 1 0 0 1-1-1Zm19 5H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2Zm0 6h-9a1 1 0 0 0 0 2h9a1 1 0 0 0 0-2Z"/>
+</svg>
+);

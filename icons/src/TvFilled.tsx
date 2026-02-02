@@ -1,0 +1,7 @@
+import React from "react";
+
+export const TvFilled = ({ className, ...props }: any) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" {...props} className={className}>
+  <path fill="currentColor" fillOpacity=".45" fillRule="evenodd" d="M3 14.769V7.23c0-2.154 1-3.231 3-3.231h12c2 0 3 1.077 3 3.231v7.539C21 16.923 20 18 18 18H6c-2 0-3-1.077-3-3.231ZM17.75 21a.75.75 0 0 0-.75-.75H7a.75.75 0 0 0 0 1.5h10a.75.75 0 0 0 .75-.75Z" clipRule="evenodd"/>
+</svg>
+);

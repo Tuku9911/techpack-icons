@@ -1,0 +1,7 @@
+import React from "react";
+
+export const AlarmMinusFilled = ({ className, ...props }: any) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" {...props} className={className}>
+  <path fill="currentColor" fillOpacity=".45" fillRule="evenodd" d="m5.53 3.53-2 2a.748.748 0 0 1-1.06 0 .75.75 0 0 1 0-1.061l2-2a.75.75 0 1 1 1.06 1.06Zm15.995.934-2-1.96a.751.751 0 0 0-1.051 1.072l2 1.96a.748.748 0 0 0 1.06-.011.751.751 0 0 0-.01-1.061Zm-4.923 14.073 1.929 1.934a.75.75 0 0 1-1.062 1.059l-2.22-2.224a7.96 7.96 0 0 1-6.5 0L6.532 21.53a.75.75 0 0 1-1.062-1.06l1.929-1.934A7.983 7.983 0 0 1 4 11.999a8 8 0 0 1 16 0 7.99 7.99 0 0 1-3.4 6.538ZM14.5 12.75a.75.75 0 0 0 0-1.5h-5a.75.75 0 0 0 0 1.5h5Z" clipRule="evenodd"/>
+</svg>
+);

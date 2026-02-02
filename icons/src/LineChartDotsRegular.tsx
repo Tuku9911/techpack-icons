@@ -1,0 +1,7 @@
+import React from "react";
+
+export const LineChartDotsRegular = ({ className, ...props }: any) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" {...props} className={className}>
+  <path fill="currentColor" fillOpacity=".45" d="M23.02 9a2 2 0 0 1-2.794 1.835l-3.37 3.371A2 2 0 0 1 15.021 17a2.005 2.005 0 0 1-1.852-2.771l-3.383-3.383a1.994 1.994 0 0 1-1.56-.012l-3.37 3.371A2 2 0 0 1 3.022 17a2.005 2.005 0 0 1-2.006-2c0-1.104.89-2 1.995-2h.01c.272 0 .53.055.766.153l3.384-3.384A1.996 1.996 0 0 1 9.012 7h.01a2 2 0 0 1 1.834 2.794l3.368 3.368c.241-.104.507-.162.787-.162h.01c.272 0 .53.055.766.153l3.384-3.384A1.996 1.996 0 0 1 21.011 7h.01a2.001 2.001 0 0 1 2 2.001Z"/>
+</svg>
+);

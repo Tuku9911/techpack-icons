@@ -1,0 +1,7 @@
+import React from "react";
+
+export const MenuAltRegular = ({ className, ...props }: any) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" {...props} className={className}>
+  <path fill="currentColor" fillOpacity=".45" d="M21 6.75H10a.75.75 0 0 1 0-1.5h11a.75.75 0 0 1 0 1.5Zm.75 5.25a.75.75 0 0 0-.75-.75H3a.75.75 0 0 0 0 1.5h18a.75.75 0 0 0 .75-.75Zm-7 6a.75.75 0 0 0-.75-.75H3a.75.75 0 0 0 0 1.5h11a.75.75 0 0 0 .75-.75Z"/>
+</svg>
+);

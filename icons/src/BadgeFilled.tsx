@@ -1,0 +1,7 @@
+import React from "react";
+
+export const BadgeFilled = ({ className, ...props }: any) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" {...props} className={className}>
+  <path fill="currentColor" fillOpacity=".45" fillRule="evenodd" d="m20.122 14.12-.44.441c-.282.281-.44.663-.44 1.061v.621a2.998 2.998 0 0 1-2.998 2.998h-.62a1.5 1.5 0 0 0-1.062.44l-.442.44a2.998 2.998 0 0 1-4.24 0l-.442-.44a1.501 1.501 0 0 0-1.06-.44h-.622a2.998 2.998 0 0 1-2.998-2.998v-.62c0-.399-.158-.78-.439-1.062l-.44-.44a2.998 2.998 0 0 1 0-4.24l.44-.442a1.5 1.5 0 0 0 .44-1.06v-.622A2.998 2.998 0 0 1 7.755 4.76h.621a1.5 1.5 0 0 0 1.061-.439l.442-.44a2.998 2.998 0 0 1 4.24 0l.442.44a1.5 1.5 0 0 0 1.061.44h.621a2.998 2.998 0 0 1 2.998 2.997v.621c0 .398.158.78.44 1.061l.44.441a2.998 2.998 0 0 1 0 4.24Z" clipRule="evenodd"/>
+</svg>
+);

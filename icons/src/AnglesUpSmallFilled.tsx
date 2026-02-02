@@ -1,0 +1,7 @@
+import React from "react";
+
+export const AnglesUpSmallFilled = ({ className, ...props }: any) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" {...props} className={className}>
+  <path fill="currentColor" fillOpacity=".45" d="M7.293 11.707a.999.999 0 0 1 0-1.414l4-4a.999.999 0 0 1 1.414 0l4 4a.999.999 0 1 1-1.414 1.414L12 8.414l-3.293 3.293a.999.999 0 0 1-1.414 0Zm5.414.586a.999.999 0 0 0-1.414 0l-4 4a.999.999 0 1 0 1.414 1.414L12 14.414l3.293 3.293a.997.997 0 0 0 1.414 0 .999.999 0 0 0 0-1.414l-4-4Z"/>
+</svg>
+);

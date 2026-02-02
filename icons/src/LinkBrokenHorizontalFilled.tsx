@@ -1,0 +1,7 @@
+import React from "react";
+
+export const LinkBrokenHorizontalFilled = ({ className, ...props }: any) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" {...props} className={className}>
+  <path fill="currentColor" fillOpacity=".45" d="M16 18h-2a1 1 0 1 1 0-2h2c2.206 0 4-1.794 4-4s-1.794-4-4-4h-2a1 1 0 1 1 0-2h2c3.309 0 6 2.692 6 6s-2.691 6-6 6Zm-5-1a1 1 0 0 0-1-1H8c-2.206 0-4-1.794-4-4s1.794-4 4-4h2a1 1 0 1 0 0-2H8c-3.309 0-6 2.692-6 6s2.691 6 6 6h2a1 1 0 0 0 1-1Zm.207-12.293a.999.999 0 0 0 0-1.414l-1-1a.999.999 0 1 0-1.414 1.414l1 1a.997.997 0 0 0 1.414 0Zm3 0 1-1a.999.999 0 1 0-1.414-1.414l-1 1a.999.999 0 1 0 1.414 1.414Zm1 17a.999.999 0 0 0 0-1.414l-1-1a.999.999 0 1 0-1.414 1.414l1 1a.997.997 0 0 0 1.414 0Zm-5 0 1-1a.999.999 0 1 0-1.414-1.414l-1 1a.999.999 0 1 0 1.414 1.414Z"/>
+</svg>
+);

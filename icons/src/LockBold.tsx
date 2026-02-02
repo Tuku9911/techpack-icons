@@ -1,0 +1,5 @@
+import React from "react";
+
+export const LockBold = ({ className, ...props }: any) => (
+  <svg id="magicoon-Bold" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" {...props} className={className}><title>lock</title><g id="lock-Bold"><path id="lock-Bold-2" data-name="lock-Bold" d="M17,9.424V7A5,5,0,0,0,7,7V9.424A5,5,0,0,0,4,14v3a5.006,5.006,0,0,0,5,5h6a5.006,5.006,0,0,0,5-5V14A5,5,0,0,0,17,9.424ZM9,7a3,3,0,0,1,6,0V9H9Zm9,10a3,3,0,0,1-3,3H9a3,3,0,0,1-3-3V14a3,3,0,0,1,3-3h6a3,3,0,0,1,3,3Zm-5-2v1a1,1,0,0,1-2,0V15a1,1,0,0,1,2,0Z"/></g></svg>
+);

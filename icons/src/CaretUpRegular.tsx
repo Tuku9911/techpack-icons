@@ -1,0 +1,7 @@
+import React from "react";
+
+export const CaretUpRegular = ({ className, ...props }: any) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" {...props} className={className}>
+  <path fill="currentColor" fillOpacity=".45" d="M18.256 13.314 13.875 8.12c-.932-1.106-2.818-1.106-3.75 0l-4.381 5.193a2.067 2.067 0 0 0-.297 2.224A2.078 2.078 0 0 0 7.35 16.75h9.297c.827 0 1.557-.464 1.904-1.212a2.067 2.067 0 0 0-.296-2.224Zm-1.064 1.59a.59.59 0 0 1-.544.346H7.35a.59.59 0 0 1-.544-.345.567.567 0 0 1 .083-.625l4.38-5.193A.951.951 0 0 1 12 8.75c.283 0 .548.123.729.337l4.38 5.193a.57.57 0 0 1 .083.625Z"/>
+</svg>
+);

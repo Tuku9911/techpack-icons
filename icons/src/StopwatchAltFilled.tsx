@@ -1,0 +1,7 @@
+import React from "react";
+
+export const StopwatchAltFilled = ({ className, ...props }: any) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" {...props} className={className}>
+  <path fill="currentColor" fillOpacity=".45" fillRule="evenodd" d="M8.25 3A.75.75 0 0 1 9 2.25h5a.75.75 0 0 1 0 1.5H9A.75.75 0 0 1 8.25 3ZM19 13.5A7.5 7.5 0 1 1 11.5 6c1.673 0 3.212.554 4.46 1.48l1.51-1.51c.29-.29.77-.29 1.06 0 .29.29.29.77 0 1.06l-1.46 1.46A7.464 7.464 0 0 1 19 13.5ZM12.25 10a.75.75 0 0 0-1.5 0v3.5a.75.75 0 0 0 1.5 0V10Z" clipRule="evenodd"/>
+</svg>
+);

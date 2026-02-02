@@ -1,0 +1,7 @@
+import React from "react";
+
+export const CaretRightFilled = ({ className, ...props }: any) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" {...props} className={className}>
+  <path fill="currentColor" fillOpacity=".45" d="m15.396 13.302-5.194 4.38C9.329 18.418 8 17.794 8 16.648V7.352c0-1.146 1.33-1.77 2.202-1.034l5.194 4.38a1.706 1.706 0 0 1 0 2.604Z"/>
+</svg>
+);

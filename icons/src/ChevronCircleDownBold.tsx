@@ -1,0 +1,5 @@
+import React from "react";
+
+export const ChevronCircleDownBold = ({ className, ...props }: any) => (
+  <svg id="magicoon-Bold" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" {...props} className={className}><title>chevron-circle-down</title><g id="chevron-circle-down-Bold"><path id="chevron-circle-down-Bold-2" data-name="chevron-circle-down-Bold" d="M12,2A10,10,0,1,0,22,12,10.011,10.011,0,0,0,12,2Zm0,18a8,8,0,1,1,8-8A8.009,8.009,0,0,1,12,20Zm3.707-9.707a1,1,0,0,1,0,1.414l-3,3a1,1,0,0,1-1.414,0l-3-3a1,1,0,0,1,1.414-1.414L12,12.586l2.293-2.293A1,1,0,0,1,15.707,10.293Z"/></g></svg>
+);

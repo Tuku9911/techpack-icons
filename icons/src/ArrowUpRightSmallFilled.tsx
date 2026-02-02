@@ -1,0 +1,7 @@
+import React from "react";
+
+export const ArrowUpRightSmallFilled = ({ className, ...props }: any) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" {...props} className={className}>
+  <path fill="currentColor" fillOpacity=".45" d="M18 6v6a1 1 0 1 1-2 0V8.414l-9.293 9.293a.997.997 0 0 1-1.414 0 .999.999 0 0 1 0-1.414L14.586 7H11a1 1 0 1 1 0-2h6a.996.996 0 0 1 1 1Z"/>
+</svg>
+);

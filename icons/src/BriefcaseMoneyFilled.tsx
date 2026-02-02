@@ -1,0 +1,7 @@
+import React from "react";
+
+export const BriefcaseMoneyFilled = ({ className, ...props }: any) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" {...props} className={className}>
+  <path fill="currentColor" fillOpacity=".45" d="M18 6h-1.25V4.5c0-.96-.79-1.75-1.75-1.75H9c-.96 0-1.75.79-1.75 1.75V6H6C4 6 3 7 3 9v9c0 2 1 3 3 3h12c2 0 3-1 3-3V9c0-2-1-3-3-3ZM6 14.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm6 2a3 3 0 1 1 0-6 3 3 0 0 1 0 6ZM8.75 6V4.5c0-.14.11-.25.25-.25h6c.14 0 .25.11.25.25V6h-6.5ZM18 14.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/>
+</svg>
+);

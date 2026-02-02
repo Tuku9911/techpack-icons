@@ -1,0 +1,7 @@
+import React from "react";
+
+export const BoltAltFilled = ({ className, ...props }: any) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" {...props} className={className}>
+  <path fill="currentColor" fillOpacity=".45" d="M19.457 10.797A.499.499 0 0 0 19 10.5h-4.5V3a.5.5 0 0 0-.872-.335l-9 10A.499.499 0 0 0 5 13.5h4.5V21a.5.5 0 0 0 .872.334l9-10a.5.5 0 0 0 .085-.537Z"/>
+</svg>
+);

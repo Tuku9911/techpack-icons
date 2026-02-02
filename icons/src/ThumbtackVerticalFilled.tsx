@@ -1,0 +1,7 @@
+import React from "react";
+
+export const ThumbtackVerticalFilled = ({ className, ...props }: any) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" {...props} className={className}>
+  <path fill="currentColor" fillOpacity=".45" d="M19 16h-6.25v5c0 .41-.34.75-.75.75s-.75-.34-.75-.75v-5H5c0-1.921.763-3.763 2.121-5.121a2.282 2.282 0 0 0 .618-2.094l-.851-3.971C6.688 3.88 6.999 3 8.355 3h7.289c1.355 0 1.667.88 1.467 1.814l-.851 3.97c-.162.759.07 1.547.618 2.095A7.239 7.239 0 0 1 19 16Z"/>
+</svg>
+);

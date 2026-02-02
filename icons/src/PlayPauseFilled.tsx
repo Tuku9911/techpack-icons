@@ -1,0 +1,7 @@
+import React from "react";
+
+export const PlayPauseFilled = ({ className, ...props }: any) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" {...props} className={className}>
+  <path fill="currentColor" fillOpacity=".45" d="m13 13.591-6.927 4.11c-1.38.818-3.152-.14-3.152-1.705V8.004c0-1.564 1.773-2.523 3.152-1.705L13 10.41a1.835 1.835 0 0 1 0 3.182Zm4.67 3.909v-11a.75.75 0 0 0-1.5 0v11a.75.75 0 0 0 1.5 0Zm4 0v-11a.75.75 0 0 0-1.5 0v11a.75.75 0 0 0 1.5 0Z"/>
+</svg>
+);

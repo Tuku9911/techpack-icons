@@ -1,0 +1,7 @@
+import React from "react";
+
+export const RoadFilled = ({ className, ...props }: any) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" {...props} className={className}>
+  <path fill="currentColor" fillOpacity=".45" d="M20.94 16.96 18.593 6.352C18.289 4.978 17.285 4 15.878 4H13.05a.3.3 0 0 0-.3.3V7c0 .41-.34.75-.75.75s-.75-.34-.75-.75V4.3a.3.3 0 0 0-.3-.3H8.124c-1.407 0-2.411.978-2.715 2.352L3.062 16.96A2.5 2.5 0 0 0 5.502 20h5.45a.3.3 0 0 0 .3-.3V17c0-.41.34-.75.75-.75s.75.34.75.75v2.7a.3.3 0 0 0 .3.3H18.5a2.5 2.5 0 0 0 2.439-3.04Zm-8.19-3.46a.75.75 0 0 1-1.5 0v-3a.75.75 0 0 1 1.5 0v3Z"/>
+</svg>
+);

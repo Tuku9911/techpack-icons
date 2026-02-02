@@ -1,0 +1,7 @@
+import React from "react";
+
+export const HomeRoofTrendUpFilled = ({ className, ...props }: any) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" {...props} className={className}>
+  <path fill="currentColor" fillOpacity=".45" d="m21.477 9.085-7.412-6.096a3.26 3.26 0 0 0-4.13 0l-7.41 6.095a.751.751 0 0 0 .953 1.159L4.5 9.4V18c0 2.29 1.21 3.5 3.5 3.5h8c2.29 0 3.5-1.21 3.5-3.5V9.402l1.023.842a.75.75 0 0 0 1.056-.102.751.751 0 0 0-.102-1.057ZM16.75 14.5a.75.75 0 0 1-1.5 0v-.69l-1.56 1.558c-.542.544-1.492.544-2.037 0l-1.18-1.18-1.943 2.027a.748.748 0 0 1-1.06 0 .75.75 0 0 1 0-1.061l2.027-2.027c.544-.544 1.495-.544 2.039 0l1.178 1.179 1.513-1.558H13.5a.75.75 0 0 1 0-1.5H16a.75.75 0 0 1 .75.75V14.5Z"/>
+</svg>
+);

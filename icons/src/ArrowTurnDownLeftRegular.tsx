@@ -1,0 +1,7 @@
+import React from "react";
+
+export const ArrowTurnDownLeftRegular = ({ className, ...props }: any) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" {...props} className={className}>
+  <path fill="currentColor" fillOpacity=".45" d="M21.75 6v5A3.755 3.755 0 0 1 18 14.75H4.81l2.72 2.72a.75.75 0 0 1-1.06 1.061l-4-4a.748.748 0 0 1-.161-.817.749.749 0 0 1 .162-.244l4-4a.75.75 0 1 1 1.06 1.061l-2.72 2.72H18c1.24 0 2.25-1.009 2.25-2.25v-5A.75.75 0 0 1 21.75 6Z"/>
+</svg>
+);

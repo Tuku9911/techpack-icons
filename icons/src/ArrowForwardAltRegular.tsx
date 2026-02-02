@@ -1,0 +1,7 @@
+import React from "react";
+
+export const ArrowForwardAltRegular = ({ className, ...props }: any) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" {...props} className={className}>
+  <path fill="currentColor" fillOpacity=".45" d="M21.75 10v4a.75.75 0 0 1-.75.75h-4.005a.75.75 0 0 1 0-1.5h2.293a8.382 8.382 0 0 0-7.408-4.5c-3.904 0-7.255 2.641-8.15 6.423a.749.749 0 0 1-.903.557.751.751 0 0 1-.557-.903c1.056-4.461 5.007-7.577 9.61-7.577a9.894 9.894 0 0 1 8.37 4.65V10a.75.75 0 0 1 1.5 0Z"/>
+</svg>
+);

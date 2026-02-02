@@ -1,0 +1,7 @@
+import React from "react";
+
+export const HeartSlashFilled = ({ className, ...props }: any) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" {...props} className={className}>
+  <path fill="currentColor" fillOpacity=".45" d="M20.774 7.858c.285 1.113.298 2.359.055 3.612-1.17 6.05-8.83 9.53-8.83 9.53s-1.257-.576-2.84-1.652a.305.305 0 0 1-.044-.464L20.268 7.73c.162-.161.449-.094.506.128Zm.756-5.388a.75.75 0 0 0-1.061 0l-2.101 2.1c-.67-.36-1.465-.562-2.39-.57-2.98-.01-3.98 2.99-3.98 2.99s-1-3-3.98-2.99c-4 .02-5.57 3.75-4.85 7.47.408 2.105 1.59 3.893 2.97 5.33l-3.67 3.67a.75.75 0 0 0 1.06 1.062l18-18a.75.75 0 0 0 .002-1.062Z"/>
+</svg>
+);

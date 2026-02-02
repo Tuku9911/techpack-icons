@@ -1,0 +1,7 @@
+import React from "react";
+
+export const SearchFilled = ({ className, ...props }: any) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" {...props} className={className}>
+  <path fill="currentColor" fillOpacity=".45" fillRule="evenodd" d="m21.53 20.47-4.369-4.368a8 8 0 1 0-1.059 1.06l4.368 4.368c.15.15.34.22.53.22s.38-.07.53-.22c.29-.29.29-.77 0-1.06Z" clipRule="evenodd"/>
+</svg>
+);

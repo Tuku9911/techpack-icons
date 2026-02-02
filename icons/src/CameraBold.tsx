@@ -1,0 +1,5 @@
+import React from "react";
+
+export const CameraBold = ({ className, ...props }: any) => (
+  <svg id="magicoon-Bold" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" {...props} className={className}><title>camera</title><g id="camera-Bold"><path id="camera-Bold-2" data-name="camera-Bold" d="M17.556,6.03l-1.13-1.694A2.993,2.993,0,0,0,13.93,3H10.07a2.993,2.993,0,0,0-2.5,1.336L6.444,6.03A5.009,5.009,0,0,0,2,11v5a5.006,5.006,0,0,0,5,5H17a5.006,5.006,0,0,0,5-5V11A5.009,5.009,0,0,0,17.556,6.03ZM20,16a3,3,0,0,1-3,3H7a3,3,0,0,1-3-3V11A3,3,0,0,1,7,8a1,1,0,0,0,.832-.445l1.406-2.11A1,1,0,0,1,10.07,5h3.86a1,1,0,0,1,.832.445l1.406,2.11A1,1,0,0,0,17,8a3,3,0,0,1,3,3ZM12,9a4,4,0,1,0,4,4A4,4,0,0,0,12,9Zm0,6a2,2,0,1,1,2-2A2,2,0,0,1,12,15Zm7-5a1,1,0,1,1-1-1A1,1,0,0,1,19,10Z"/></g></svg>
+);

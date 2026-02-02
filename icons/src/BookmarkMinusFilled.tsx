@@ -1,0 +1,7 @@
+import React from "react";
+
+export const BookmarkMinusFilled = ({ className, ...props }: any) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" {...props} className={className}>
+  <path fill="currentColor" fillOpacity=".45" d="M16 3H8C6 3 5 4 5 6v15l7-4 7 4V6c0-2-1-3-3-3Zm-1.5 7.75h-5a.75.75 0 0 1 0-1.5h5a.75.75 0 0 1 0 1.5Z"/>
+</svg>
+);

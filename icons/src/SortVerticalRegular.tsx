@@ -1,0 +1,7 @@
+import React from "react";
+
+export const SortVerticalRegular = ({ className, ...props }: any) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" {...props} className={className}>
+  <path fill="currentColor" fillOpacity=".45" d="M16.53 13.47a.75.75 0 0 1 0 1.061l-4 4a.748.748 0 0 1-1.06 0l-4-4a.75.75 0 1 1 1.06-1.061L12 16.94l3.47-3.47a.748.748 0 0 1 1.06 0Zm-8-2.94L12 7.06l3.47 3.47a.748.748 0 0 0 1.06 0 .75.75 0 0 0 0-1.061l-4-4a.75.75 0 0 0-1.061 0l-4 4a.75.75 0 0 0 1.06 1.061Z"/>
+</svg>
+);

@@ -1,0 +1,7 @@
+import React from "react";
+
+export const TreeFilled = ({ className, ...props }: any) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" {...props} className={className}>
+  <path fill="currentColor" fillOpacity=".45" d="M17.712 13.82 14.351 9.5h1.138c.842 0 1.315-.97.797-1.636L12.797 3.39a1.01 1.01 0 0 0-1.594 0L7.714 7.864c-.518.665-.045 1.636.797 1.636h1.138l-3.361 4.32c-.69.89-.06 2.18 1.06 2.18h3.902v5a.75.75 0 0 0 1.5 0v-5h3.902c1.12 0 1.751-1.29 1.06-2.18Z"/>
+</svg>
+);
