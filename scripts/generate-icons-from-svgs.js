@@ -61,6 +61,10 @@ function processSvgContent(rawSvg) {
   svg = svg.replace(/\sfill="(?!none|currentColor)[^"]*"/gi, ' fill="currentColor"');
   svg = svg.replace(/\sfill='(?!none|currentColor)[^']*'/gi, " fill=\"currentColor\"");
 
+  // Strip inherited opacity so the default icon color is not faded/gray.
+  svg = svg.replace(/\sfillOpacity="[^"]*"/gi, "");
+  svg = svg.replace(/\sfillOpacity='[^']*'/gi, "");
+
   // Ensure root <svg> uses currentColor and accepts React props
   svg = svg.replace(
     /<svg([^>]*)>/i,
@@ -136,4 +140,3 @@ function main() {
 }
 
 main();
-

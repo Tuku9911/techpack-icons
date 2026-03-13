@@ -1,6 +1,6 @@
 {
   "name": "techpack-icons",
-  "version": "0.1.6",
+  "version": "0.1.9",
   "description": "Light and Bold, Regular, Filled React SVG icon set generated from techpack.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",

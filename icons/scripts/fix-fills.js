@@ -39,8 +39,9 @@ function transformContents(source) {
   changed = changed.replace(/fill="#fff"/gi, 'fill="currentColor"');
   changed = changed.replace(/fill="#ffffff"/gi, 'fill="currentColor"');
 
-  // 2) Convert SVG fill-opacity="0.45" to JSX fillOpacity={0.45}
-  changed = changed.replace(/fill-opacity="([0-9]*\.?[0-9]+)"/gi, 'fillOpacity={$1}');
+  // 2) Remove fill opacity so default icon color stays solid.
+  changed = changed.replace(/\sfill-opacity="([0-9]*\.?[0-9]+)"/gi, "");
+  changed = changed.replace(/\sfillOpacity=\{?([0-9]*\.?[0-9]+)\}?/gi, "");
 
   // 3) If there are hard-coded black/white strokes, also make them currentColor.
   changed = changed.replace(/stroke="#000000"/gi, 'stroke="currentColor"');
@@ -75,4 +76,3 @@ function main() {
 }
 
 main();
-
